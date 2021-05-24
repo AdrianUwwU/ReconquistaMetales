@@ -1,0 +1,178 @@
+
+/*
+1. Posicionamiento
+2. Modelo de caja(box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+header{
+   text-align: center;
+   display: flex;
+   width: 100vw;
+   height: 150px;
+   background: linear-gradient( 208.83deg, black 16.69%, orange 100%);
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+
+.text-container {   
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.title-title {
+    display: block;
+    color:  rgb(195, 195, 195);
+    font-size: 2.8rem;
+}
+
+.text {
+    width: 85%;
+    color: rgb(216, 215, 215);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.text-one {
+    color: #e3e4e5;
+    font-size: 1.7rem;
+    padding: 15px;
+}
+
+.text-two {
+    color: #e3e4e5;
+    padding: 0 0 50px;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 25%;
+    height: 50px;
+    display: inline-block;
+    padding: 2.8%;
+    text-decoration: none;
+    background: #faf8f7;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
+    border-radius: 4px;
+    position: absolute;
+    bottom: -90px;
+    transition: background-color .5s;
+}
+
+.options {
+    position: relative;
+    width: 100%;
+    max-width: 625px;
+}
+
+.option-one {
+    left: 15px;
+    padding: 16px 0;
+}
+
+
+.option-two {
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    padding: 16px 0;
+   
+}
+
+
+
+.option-three {
+    right: 15px;
+}
+
+header a:hover {
+    background-color: goldenrod;
+}
+
+
+
+
+
+
+main { 
+    display: flex;
+    width: 100vw;
+    height: 737px;
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    color: rgb(195, 195, 195);
+    background-color: black; 
+    font-size: 1.6rem;  
+}
+
+.footer .footer-footer {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.footer p {
+    display: inline-block;
+    padding: 15px 40px 15px;
+    
+}
+
+
+.footer p a {
+    color: rgb(195, 195, 195);
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: rgb(117, 117, 117);
+}
+
+.footer span {
+    color: black;
+}
