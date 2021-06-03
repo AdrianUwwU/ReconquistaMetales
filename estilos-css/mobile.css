@@ -158,12 +158,33 @@ main {
 }
 
 .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     margin: 30px;
     margin-top: 45px;
+    text-align: center;
 }
 
+.alambresYBarrasDeLatón {
+    font-weight: 600;
+    margin: 10px;
+    font-size: 2.1rem;
+}
 
+.main-text div {
+    width: 250px;
+    height: 1px;
+    background-color: grey;
+}
+
+.pesoPorMetro {
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin: 20px 0 -20px;
+}
 
 
 .main-medidas {
