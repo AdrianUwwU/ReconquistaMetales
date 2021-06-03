@@ -28,7 +28,7 @@ header{
    text-align: center;
    display: flex;
    width: 100vw;
-   height: 220px;
+   height: 270px;
    background: linear-gradient(207.8deg, black 45%, orange 100%);
    flex-direction: column;
    align-items: center;
@@ -42,6 +42,7 @@ header{
     align-items: center;
     width: 100%;
     height: 70px;
+    margin-top: 30px;
     justify-content: center;
 }
 
@@ -54,13 +55,15 @@ header{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #a3a3a3;
+    margin-top: -25px
 }
 
 .title-title {
     display: block;
     color:  rgb(195, 195, 195);
     font-size: 2.6rem;
-    margin-top: 93px;
+    margin-top: 100px;
+
 }
 
 .header-text {
@@ -69,7 +72,7 @@ header{
     color: rgb(206, 206, 206);
     text-align: center;
     font-size: 1.9rem;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 14px;
     padding-right: 14px;
 }
@@ -114,7 +117,7 @@ header a {
 
 .option-one {
     left: 53px;
-    top: 28px;
+    top: 35px;
 
     padding: 15px 0 17px;
 }
@@ -122,7 +125,7 @@ header a {
 
 .option-two {
     right: 53px;
-    top: 28px;
+    top: 35px;
     padding: 15px 0 17px;
 }
 
@@ -139,7 +142,7 @@ header a:hover {
 main {
     display: flex;
     width: 100vw;
-    
+    flex-direction: column;
     background-color: rgb(246, 246, 246);
 }
 
@@ -148,6 +151,36 @@ main {
     margin: 30px;
     margin-top: 45px;
 }
+
+
+
+
+.main-medidas {
+    width: 100vw;
+    height: 700px;
+    
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+
+.main-medidas tr {
+    width: 100%;
+    text-align: center;
+}
+
+.medidas {
+    width: 12.5%;
+    font-size: 1.4rem;
+    background-color: white;
+    font-weight: 600;
+}
+
 
 
 
