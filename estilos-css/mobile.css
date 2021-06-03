@@ -93,9 +93,9 @@ header a {
     align-items: center;
     vertical-align: middle;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     width: 25%;
-    height: 50px;
+    height: 35px;
     display: inline-block;
     padding: 2.8%;
     text-decoration: none;
@@ -116,19 +116,26 @@ header a {
 }
 
 .option-one {
-    left: 53px;
-    top: 35px;
+    left: 20px;
+    top: 48px;
 
-    padding: 15px 0 17px;
+    padding: 10px 0 10px;
 }
 
 
 .option-two {
-    right: 53px;
-    top: 35px;
-    padding: 15px 0 17px;
+    right: 20px;
+    top: 48px;
+    padding: 10px 0 10px;
 }
 
+.option-three {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 48px;
+    padding: 10px 0 10px;
+}
 
 header a:hover {
     background-color: goldenrod;
@@ -156,10 +163,13 @@ main {
 
 
 .main-medidas {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 700px;
-    
+    font-size: 2rem;
 }
+
 
 table {
     width: 90%;
