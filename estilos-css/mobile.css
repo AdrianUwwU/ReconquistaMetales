@@ -171,13 +171,13 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 700px;
+    
     font-size: 2rem;
     text-align: center;
 }
 
 .main-medidas h3 {
-
+    margin-top: 100px;
 }
 
 .main-medidas div {
