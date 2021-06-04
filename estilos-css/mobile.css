@@ -187,14 +187,15 @@ main {
 }
 
 
+
 .main-medidas {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    
     font-size: 2rem;
     text-align: center;
+    margin: 0 0 80px;
 }
 
 .main-medidas h3 {
@@ -239,6 +240,15 @@ table {
     font-weight: 600;
 }
 
+
+tr .medidas-espesorDePared-one {
+    position: flex;
+    flex-direction: row;
+    width: 75%;
+    font-size: 1.37rem;
+    background-color: white;
+    font-weight: 600;
+}
 
 
 
