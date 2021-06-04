@@ -221,7 +221,7 @@ main {
 }
 
 table {
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
     background-color: black;
 }
@@ -244,12 +244,21 @@ table {
 tr .medidas-espesorDePared-one {
     position: flex;
     flex-direction: row;
-    width: 75%;
     font-size: 1.37rem;
     background-color: white;
     font-weight: 600;
 }
 
+.medidas-special-uno {
+    width: 8.5%;
+    height: 20px;
+    background-color: white;
+}
+
+.medidas-special-dos {
+   width: 10.5%;
+   background-color: white;
+}
 
 
 
