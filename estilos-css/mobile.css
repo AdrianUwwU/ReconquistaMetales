@@ -166,7 +166,7 @@ main {
     text-align: center;
 }
 
-.alambresYBarrasDeLatón {
+.main-text .alambresYBarrasDeLatón {
     font-weight: 600;
     margin: 10px;
     font-size: 2.1rem;
@@ -218,7 +218,13 @@ main {
     width: 230px;
     border-radius: 6px;
     padding: 7px;
-    margin: 12px 0;
+    margin: 12px 0; 
+    transition: background-color 0.2s linear 0.1s;
+}
+
+.main-medidas .a:hover {
+    background-color: #a3a3a3;
+    
 }
 
 table {
@@ -269,13 +275,25 @@ tr .medidas-espesorDePared-one {
    background-color: white;
 }
 
+.chapasDeLatón {
+    margin-top: 35px;
+}
+
+.chapasDeAluminio {
+    margin-top: 35px;
+}
+
+.cintasDeAluminio {
+    margin-top: 35px;
+}
+
 .main-medidas span {
     background-image: url(../assets/flecha.png);
     width: 55px;
     height: 55px;
     display: inline-block;
     border: 2px solid black;
-    border-radius: 100px;
+    border-radius: 40px;
     background-size: cover;
     margin-bottom: -70px;
     
