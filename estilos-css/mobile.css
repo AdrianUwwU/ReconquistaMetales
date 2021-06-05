@@ -118,7 +118,9 @@ header a {
 }
 
 .option-one {
-    left: 48px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     top: 48px;
     color: black;
     padding: 9px 0 11px;
@@ -126,14 +128,14 @@ header a {
 
 
 .option-two {
-    right: 48px;
+    right: 20px;
     top: 48px;
     color: black;
     padding: 9px 0 11px;
 }
 
 .option-three {
-    left: 48px;
+    left: 20px;
     color: black;
     top: 48px;
     padding: 9px 0 11px;
@@ -196,7 +198,7 @@ main {
     width: 100vw;
     font-size: 2rem;
     text-align: center;
-    margin: 0 0 80px;
+    margin: 0 0 30px;
 }
 
 .main-medidas h3 {
@@ -302,7 +304,7 @@ tr .medidas-espesorDePared-one {
     border: 2px solid black;
     border-radius: 40px;
     background-size: cover;
-    margin-bottom: -70px;
+    margin-bottom: -12px;
     
 }
 
