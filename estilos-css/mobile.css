@@ -258,8 +258,15 @@ tbody {
 }
 
 .medidas-primero {
+    width: 25%;
+    font-size: 1.4rem;
+    background-color: #e3e4e5;
+    font-weight: 600;
+}
+
+.medidas-primero--dos {
     width: 12.5%;
-    font-size: 1.37rem;
+    font-size: 1.4rem;
     background-color: #e3e4e5;
     font-weight: 600;
 }
@@ -295,7 +302,7 @@ tr .medidas-espesorDePared-one {
 
 .medidas-special-uno {
     color: white;
-    width: 12.5%;
+    width: 12.4%;
     height: 20px;
     background-color: white;
 }
