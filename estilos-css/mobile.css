@@ -302,9 +302,9 @@ tr .medidas-espesorDePared-one {
 
 .medidas-special-uno {
     color: white;
+
     width: 12.4%;
-    height: 20px;
-    background-color: white;
+
 }
 
 .medidas-special-dos {
@@ -337,7 +337,7 @@ tr .medidas-espesorDePared-one {
     
 }
 
-..main-medidas span:hover {
+.main-medidas span:hover {
     background-color: goldenrod;
 }
 
