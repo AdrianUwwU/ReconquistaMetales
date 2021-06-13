@@ -149,6 +149,7 @@ header a:hover {
 
 
 main {
+    text-align: center;
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -186,7 +187,21 @@ main {
 
 .main-text p {
     font-size: 1.8rem;
-    margin-top: 40px;
+    
+}
+
+main p {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 0 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main div {
+    width: 190px;
+    height: 1px;
+    margin: -38px auto 45px;
+    background-color: black;
 }
 
 .main-medidas {
@@ -196,7 +211,7 @@ main {
     width: 100vw;
     font-size: 2rem;
     text-align: center;
-    margin: 0 0 80px;
+    margin: 0 0 40px;
 }
 
 .main-medidas h3 {
@@ -336,6 +351,13 @@ tr .medidas-espesorDePared-one {
 
 .footer p a:hover {
     color: rgb(117, 117, 117);
+}
+
+.footer a {
+    display: inline-block;
+    padding: 15px 20px 15px;
+    color: rgb(195, 195, 195);
+    text-decoration: none;
 }
 
 .footer span {

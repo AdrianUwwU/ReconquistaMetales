@@ -157,6 +157,20 @@ main {
     background-color: rgb(246, 246, 246);
 }
 
+main p {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 15px auto 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main div {
+    width: 190px;
+    height: 1px;
+    margin: -38px auto 45px;
+    background-color: black;
+}
+
 .main-text {
     display: flex;
     flex-direction: column;
@@ -302,15 +316,16 @@ tr .medidas-espesorDePared-one {
 
 .medidas-special-uno {
     color: white;
-
     width: 12.4%;
-
+    background-color: white;
 }
+
+
 
 .medidas-special-dos {
     color: white;
-   width: 12.2%;
-   background-color: white;
+    width: 12.2%;
+    background-color: white;
 }
 
 .chapasDeLatón {
@@ -374,6 +389,13 @@ tr .medidas-espesorDePared-one {
 
 .footer p a:hover {
     color: rgb(117, 117, 117);
+}
+
+.footer a {
+    display: inline-block;
+    padding: 15px 20px 15px;
+    color: rgb(195, 195, 195);
+    text-decoration: none;
 }
 
 .footer span {
