@@ -1,13 +1,5 @@
-
-
-
-
-
-
-
-
 .main-medidas {
-    max-width: 600px;
+    max-width: 550px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,6 +8,3 @@
     text-align: center;
     margin: 0 auto
 }
-
-
-    
