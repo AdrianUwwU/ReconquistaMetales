@@ -164,7 +164,7 @@ main {
 main p {
     font-weight: bold;
     font-size: 2rem;
-    margin: 15px auto 50px;
+    margin: 35px auto 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -252,6 +252,8 @@ main div {
     background-color: #a3a3a3;
     
 }
+
+
 
 table {
     width: 90%;
@@ -354,6 +356,7 @@ tr .medidas-espesorDePared-one {
     background-size: cover;
     margin-bottom: -12px;
     
+    
 }
 
 .main-medidas span:hover {
@@ -381,7 +384,8 @@ tr .medidas-espesorDePared-one {
 
 .footer p {
     display: inline-block;
-    padding: 15px 20px 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 
