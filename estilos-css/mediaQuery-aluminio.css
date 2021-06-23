@@ -1,15 +1,12 @@
 
 
 
-
-
-
 main p {
     margin-top: 45px;
 }
 
 .main-medidas {
-    max-width: 700px;
+    max-width: 1100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -19,9 +16,8 @@ main p {
     margin: 0 auto
 }
 
-
-
-
-
-
-    
+.special-div {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
