@@ -19,6 +19,27 @@ main p {
     margin: 0 auto
 }
 
+main .main-section {
+    height: 900px;
+}
+
+.main-text {
+    margin-top: 60px;
+}
+
+.images-section {
+    height: 700px;
+}
+
+.imagen1 {
+    width: 350px;
+    height: 250px;
+}
+
+.imagen2 {
+    width: 350px;
+    height: 270px;
+}
 
 
 

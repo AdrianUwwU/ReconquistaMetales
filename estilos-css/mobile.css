@@ -67,7 +67,8 @@ header{
 }
 
 .header-text {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 85%;
     color: rgb(206, 206, 206);
     text-align: center;
@@ -79,6 +80,7 @@ header{
 
 .header-text p {
     height: 45px;
+    width: 230px;
 }
 
 .text-one {
@@ -379,9 +381,8 @@ tr .medidas-espesorDePared-one {
 }
 
 .footer .footer-footer {
-    display: inline-block;
+    width: 70%;
     text-align: center;
-
 }
 
 .footer p {

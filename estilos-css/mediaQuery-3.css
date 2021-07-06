@@ -1,0 +1,38 @@
+
+
+
+
+
+main .main-section {
+    position: relative;
+    height: 950px;
+}
+
+.images-section {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagen1 {
+    width: 610px;
+    height: 450px;
+    
+    
+    
+}
+
+.imagen2 {
+    width: 610px;
+    height: 465px;
+    margin: 0;
+    
+}
+
+.main-text {
+    width: 42%;
+    text-align: justify;
+}
+
+.footer p {
+    padding: 0 10px;
+}
