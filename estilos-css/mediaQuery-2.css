@@ -32,3 +32,16 @@ main .main-section {
     text-align: justify;
     margin-bottom: -40px;
 }
+
+.footer .footer-footer {
+    font-size: 2.3rem;
+}
+
+.footer p a {
+    font-size: 2.3rem;
+}
+
+.whatsapp{
+    width: 65px;
+    height: 85px;
+}

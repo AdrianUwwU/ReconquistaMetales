@@ -36,3 +36,18 @@ main .main-section {
 .footer p {
     padding: 0 10px;
 }
+
+.footer .footer-footer {
+    width: 1150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+}
+
+.footer p a {
+    font-size: 2.5rem;
+}
+
+.footer .whatsapp {
+    padding-top: 16px;
+}

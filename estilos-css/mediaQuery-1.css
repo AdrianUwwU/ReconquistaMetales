@@ -16,7 +16,7 @@ main p {
     width: 100vw;
     font-size: 2.2rem;
     text-align: center;
-    margin: 0 auto
+    margin: 60px auto 0;
 }
 
 main .main-section {
@@ -39,6 +39,12 @@ main .main-section {
 .imagen2 {
     width: 350px;
     height: 270px;
+}
+
+.whatsapp{
+    left: 25px;
+    width: 60px;
+    height: 80px;
 }
 
 
