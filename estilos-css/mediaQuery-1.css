@@ -2,7 +2,19 @@
 
 
 
+.logo {
+    width: 100px;
+    height: 60px;
+    font-size: 5.4rem;
+}
 
+.title-title {
+    font-size: 3.4rem;
+}
+
+.header-text p {
+    font-size: 2.1rem;
+}
 
 main p {
     margin-top: 45px;
@@ -42,7 +54,7 @@ main .main-section {
 }
 
 .whatsapp{
-    left: 25px;
+    left: 80%;
     width: 60px;
     height: 80px;
 }

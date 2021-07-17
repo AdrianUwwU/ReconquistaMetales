@@ -1,0 +1,11 @@
+.EMAIL {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../assets/EMAIL-LOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: -315px;
+}

@@ -1,12 +1,6 @@
 
 
-/*
-1. Posicionamiento
-2. Modelo de caja(box model)
-3. Tipografia
-4. Visuales
-5. Otros
-*/
+
 
 * {
     box-sizing: border-box;
@@ -376,7 +370,7 @@ tr .medidas-espesorDePared-one {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 150px;
     width: 100vw;
     color: rgb(195, 195, 195);
     background-color: black;
@@ -414,17 +408,22 @@ tr .medidas-espesorDePared-one {
     text-decoration: none;
 }
 
+.pais {
+    padding: 15px 0 10px 0;
+}
+
 .footer span {
     color: black;
 }
 
 .whatsapp {
     position: sticky;
-    bottom: 40%;
+    bottom: 5%;
+    margin-left: 86.5%;
     background-image: url(../assets/whatsapp-3.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 45px;
-    height: 65px;
+    width: 43px;
+    height: 63px;
 }
